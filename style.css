@@ -48,7 +48,7 @@ figure {
 }
 
 img {
-  height: 150px;
+  height: 200px;
   border-radius: 100%;
   float: right;
 }
@@ -56,6 +56,10 @@ img {
 a {
   color: black;
   text-decoration: none;
+}
+
+a:visited {
+  color: navy;
 }
 
 a:hover,
@@ -107,16 +111,56 @@ hr {
 #qualification {
   margin-top: 1em;
   font-size: 150%;
+  margin-bottom: 0.5em;
 }
 
 .entity-name {
   font-weight: bold;
-  margin-top: 0.5em;
+  font-size: 120%;
 }
 
 #location {
   margin-top: 0.5em;
   margin-bottom: 2em;
+}
+
+.skill {
+  margin-top: 0.5em;
+  display: flex;
+}
+
+.skillbar {
+  margin-left: auto;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  width: 40%;
+  border-radius: 1em;
+  display: flex;
+}
+
+.skill-ratio {
+  margin-right: auto;
+  background-image: linear-gradient(
+    to right,
+    #838383,
+    #616161,
+    #414141,
+    #232323,
+    #000000
+  );
+  border-radius: 1em;
+}
+
+#skill-60 {
+  width: 60%;
+}
+
+#skill-80 {
+  width: 80%;
+}
+
+#skill-100 {
+  width: 100%;
 }
 
 .bullets {
