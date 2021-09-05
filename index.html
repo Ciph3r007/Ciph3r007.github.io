@@ -13,7 +13,7 @@
     <main>
       <div class="header">
         <div class="info-wrapper">
-          <h1>Md. Omur Faruque</h1>
+          <h1 id="name">Md. Omur Faruque</h1>
           <div class="info">
             <div class="info-column-1">
               <p class="info-item">
@@ -28,15 +28,21 @@
             <div class="info-column-2">
               <p class="info-item">
                 <i class="info-icon fas fa-envelope"></i>
-                <a href="mailto:apu466@gmail.com">apu466@gmail.com</a>
+                <a href="mailto:apu466@gmail.com" target="_blank"
+                  >apu466@gmail.com</a
+                >
               </p>
               <p class="info-item">
                 <i class="info-icon fab fa-github-square"></i>
-                <a href="https://github.com/Ciph3r007">Ciph3r007 | GitHub</a>
+                <a href="https://github.com/Ciph3r007" target="_blank"
+                  >Ciph3r007 | GitHub</a
+                >
               </p>
               <p class="info-item">
                 <i class="info-icon fab fa-linkedin-in"></i>
-                <a href="https://www.linkedin.com/in/omur-faruque-386b5a207/"
+                <a
+                  href="https://www.linkedin.com/in/omur-faruque-386b5a207/"
+                  target="_blank"
                   >LinkedIn | Omur Faruque</a
                 >
               </p>
@@ -50,14 +56,182 @@
 
       <div class="segment-wrapper">
         <div class="segment-col-left">
-          <div class="seg seg-projects">
-            <div class="seg-header-wrapper">
-              <h2 class="seg-header">Notable Projects</h2>
-              <hr />
-            </div>
-          </div>
+          <article class="seg-projects">
+            <h2 class="seg-header">NOTABLE PROJECTS</h2>
+            <hr />
+            <section class="project">
+              <h2 class="title">
+                <a href="https://github.com/Ciph3r007/Home" target="_blank"
+                  >Home (Django, PostgreSQL)</a
+                >
+              </h2>
+              <p class="descr">
+                A real estate web app for property listing where realtors can
+                add properties and people can query with multiple filters.
+              </p>
+            </section>
+            <section class="project">
+              <h2 class="title">
+                <a href="https://github.com/Ciph3r007/Tweety" target="_blank"
+                  >Tweety (PHP, MySQL)</a
+                >
+              </h2>
+              <p class="descr">
+                A twitter clone built using core PHP. Basic functionalities
+                include twitting, commenting, sharing, chatting etc.
+              </p>
+            </section>
+            <section class="project">
+              <h2 class="title">Image Captioning (InceptionV3, TensorFlow)</h2>
+              <p class="descr">
+                An encoder decoder architecture for image captioning with CNN
+                encoder and LSTM decoder. Images were from COCO dataset.
+                Pretrained InceptionV3 model was used to extract features for
+                encoder via transfer learning.
+              </p>
+            </section>
+            <section class="project">
+              <h2 class="title">
+                <a
+                  href="https://github.com/Ciph3r007/Machine-Translation"
+                  target="_blank"
+                  >Machine Translation (TensorFlow)</a
+                >
+              </h2>
+              <p class="descr">
+                An English to German machine translation model using
+                TensorFlow’s custom layers and custom training loops.
+              </p>
+            </section>
+            <section class="project">
+              <h2 class="title">
+                <a href="https://github.com/Ciph3r007/ChatBot" target="_blank"
+                  >Chatbot (Reformer, Trax)</a
+                >
+              </h2>
+              <p class="descr">
+                A Reformer model is trained on the MultiWoz Dialogue Dataset to
+                create a chatbot. Model needs further tuning and training but
+                still grasps the content of the dialogue and generates sentences
+                with syntax preservation more often than not.
+              </p>
+            </section>
+            <section class="project">
+              <h2 class="title">
+                <a
+                  href="https://github.com/snehadevi/Duplicate-Finder"
+                  target="_blank"
+                  >Duplicate Finder (Python, Trax)</a
+                >
+              </h2>
+              <p class="descr">
+                A Siamese network model trained on Quora questions pair dataset
+                which detects duplicates with an F1 score around 80%.
+              </p>
+            </section>
+            <section class="project">
+              <h2 class="title">
+                <a
+                  href="https://github.com/Ciph3r007/VAE-for-CelebA"
+                  target="_blank"
+                  >VAE for CelebA (TensorFlow Probability, VAE)</a
+                >
+              </h2>
+              <p class="descr">
+                A Variational Autoencoder model is trained on the subset of
+                CelebA dataset, which can reconstruct and generate new celebrity
+                images. Latent space is also explored and changed in desired
+                direction to change attributes of input images.
+              </p>
+            </section>
+            <section class="project">
+              <h2 class="title">
+                <a href="https://github.com/snehadevi/KitKat" target="_blank"
+                  >KitKat (Android, Socket)</a
+                >
+              </h2>
+              <p class="descr">
+                An android P2P chatting app with basic chatting and text file
+                sharing capabilities. Only works with users on the same WiFi
+                network.
+              </p>
+            </section>
+            <section class="project">
+              <h2 class="title">
+                <a href="https://github.com/Ciph3r007/SpaceBall" target="_blank"
+                  >Spaceball (Unity, C#)</a
+                >
+              </h2>
+              <p class="descr">A 3D endless runner game.</p>
+            </section>
+          </article>
         </div>
-        <div class="segment-col-left"></div>
+        <div class="segment-col-right">
+          <article class="seg-about">
+            <h2 class="seg-header">About me</h2>
+            <hr />
+            <p id="summary">
+              “I love solving puzzles, playing chess. I get fascinated with
+              mathematics and the relentless growth of machines and technology.
+              <br /><br />
+              Deeply into Neural Nets.”
+            </p>
+          </article>
+          <article class="seg-education">
+            <h2 class="seg-header">Education</h2>
+            <hr />
+            <p id="qualification">B.Sc. in Computer Science & Engineering</p>
+            <p class="entity-name">
+              Shahjalal University of Science and Technology
+            </p>
+            <p id="location">
+              <i class="info-icon fas fa-map-marker-alt"></i>
+              Sylhet, Bangladesh
+            </p>
+          </article>
+          <article class="seg-skills">
+            <h2 class="seg-header">Skills</h2>
+            <hr />
+            <p class="entity-name">Python<br /></p>
+            <p class="entity-name">C, C++<br /></p>
+            <p class="entity-name">Java, C#<br /></p>
+            <p class="entity-name">TensorFlow<br /></p>
+            <p class="entity-name">Django<br /></p>
+            <p class="entity-name">Numpy, Pandas<br /></p>
+            <p class="entity-name">Matplotlib, Seaborn<br /></p>
+            <p class="entity-name">MySQL, PostgreSQL<br /></p>
+            <p class="entity-name">Git<br /></p>
+          </article>
+          <article class="seg-thesis">
+            <h2 class="seg-header">Thesis</h2>
+            <hr />
+            <h2 class="title">
+              Sentimental Style Transfer in Text with Variational Autoencoder
+            </h2>
+            <ul class="descr">
+              <li class="bullets">
+                A probabilistic model using VAE and holistic discriminator to
+                transfer the style of texts while controlling the semantics.
+                (i.e., converting a paragraph to Shakespearian style). Primarily
+                worked with Positive-Negative sentiments.
+              </li>
+              <li class="bullets">Used Bengali language.</li>
+            </ul>
+          </article>
+          <article class="seg-others">
+            <h2 class="seg-header">Others</h2>
+            <hr />
+            <ul class="descr">
+              <li class="bullets">
+                Obtained 30+ certiifications and completed around 40 courses
+                from different MOOC sites like Coursera, DataCamp, Udacity etc.
+              </li>
+              <li class="bullets">
+                Solved 200+ problems on different online judges.
+              </li>
+            </ul>
+          </article>
+        </div>
       </div>
     </main>
   </body>
