@@ -31,6 +31,14 @@ main {
 #name {
   font-weight: bold;
   font-size: 265%;
+  margin-bottom: 0.8rem;
+}
+
+#job {
+  color: grey;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 1.5em;
 }
 
 .info {
@@ -53,7 +61,7 @@ figure {
 }
 
 img {
-  width: 12rem;
+  width: 13rem;
   max-width: 100%;
   height: auto;
   border-radius: 100%;
@@ -69,7 +77,8 @@ a:visited {
 }
 
 a:hover,
-a:focus {
+a:focus,
+#no-link:hover {
   color: dodgerblue;
 }
 
